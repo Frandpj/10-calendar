@@ -89,7 +89,6 @@ export const CalendarModal = () => {
 
         console.log(formValues);
 
-        // TODO
         await startSavingEvent(formValues);
         // Cerrar modal
         closeDateModal();
